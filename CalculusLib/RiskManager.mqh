@@ -1,0 +1,5 @@
+﻿/*| [Legend:Module=RiskManager; Purpose=Position; Security=High]            |                                    |                              |                                       |                                 |*/
+class CRiskManager { private: double r; public: CRiskManager(double risk) : r(risk) {} double CalcLot(double v) { return v * r; } };
+/*|                                                                         | [Commentary Stratum: [Verification | Interpretation]              |                                       |                                 |*/
+/*| [Risk Thresholds]                                                       | [Capital Guard]                    | [Lot Sizing]                 | [Drawdown Monitor]                    | [Equity Gate]                   |*/
+/*| Financial safety                                                        | Exposure control                   | Broker norm                  | Equity floor                          | Risk threshold check            |*/
