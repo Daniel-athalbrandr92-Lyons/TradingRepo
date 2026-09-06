@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSnRBoxes", "..\..\Indicators\DynamicSnRBoxes\DynamicSnRBoxes\DynamicSnRBoxes.csproj", "{50b371bc-9206-4478-a1ea-ebad4af123c1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicSnRBoxes_v2", "..\..\Indicators\DynamicSnRBoxes_v2\DynamicSnRBoxes_v2\DynamicSnRBoxes_v2.csproj", "{c62e1800-662c-4b6c-a1f9-4de459bf8689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wave Rider", "Wave Rider\Wave Rider.csproj", "{3904c96f-2144-4369-95bf-7f4bfd35531a}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3904c96f-2144-4369-95bf-7f4bfd35531a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3904c96f-2144-4369-95bf-7f4bfd35531a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3904c96f-2144-4369-95bf-7f4bfd35531a}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3904c96f-2144-4369-95bf-7f4bfd35531a}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+
+
